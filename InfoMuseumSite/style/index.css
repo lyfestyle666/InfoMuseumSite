@@ -1,28 +1,101 @@
-.title {
-    text-align: center;
-    font-size: x-large;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color:indianred;
+html, body {
+    margin: 0;
+    padding: 0;
 }
-.info {
-    text-align: center;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    ;
-}
-.info2 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.navigation {
-    text-align: center;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
+a {
     text-decoration: none;
+    color: rgb(255, 255, 255)
 }
-li {
-    list-style-type:none;
+header {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background-color: rgb(12, 12, 12);
+    height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-image {
+    width: 100%;
+}
+.header-left {
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'PlexSansJP', sans-serif;
+    padding: 0 220px;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+}
+.header-right {
+    font-size: x-large;
+    font-family: 'PlexSansJP', sans-serif;
+    padding: 0 220px;
+}
+.title-line {
+    color: rgb(85, 85, 85);
+    width: 900px;
+    opacity: 5%;
+
+}
+@font-face {
+    font-family: 'PlexSansJP';
+    src: url('/InfoMuseumSite/style/fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: white;
     text-align: center;
-    
-}
+    z-index: 2;
+    max-width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btn {
+    background-color: #d50037;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  .btn:hover {
+    background-color: #ff0000;
+  }
+  .about {
+    background-color: white;     /* Білий фон */
+    color: #111;                 /* Темний текст */
+    padding: 80px 20px;
+  }
+  
+  .about .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .about h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
