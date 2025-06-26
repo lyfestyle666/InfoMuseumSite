@@ -78,8 +78,8 @@ header {
     background-color: #ff0000;
   }
   .about {
-    background-color: white;     /* Білий фон */
-    color: #111;                 /* Темний текст */
+    background-color: white;
+    color: #111;
     padding: 80px 20px;
   }
   
